@@ -22,4 +22,10 @@ Install the latest available production release of MongoDB Community Server:
 
 # Starting for application
 
-```npm run dev```
+to run the application:
+
+```
+npm install
+yarn add express
+npm run dev
+```
