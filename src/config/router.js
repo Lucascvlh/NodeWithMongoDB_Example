@@ -11,7 +11,9 @@ module.exports = function(server){//o parametro representa o servidor
 
   //rota especifíca para a tarefa
   const tarefaServices = require('../api/tarefas/tarefasServices')
+  const clientesServices = require('../api/clientes/clientesServices')
 
   //registra a rota de tarefas
   tarefaServices.register(router, '/tarefas')
+  clientesServices.register(router, '/clientes')
 }
